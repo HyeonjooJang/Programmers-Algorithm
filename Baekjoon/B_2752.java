@@ -8,7 +8,7 @@ import java.util.StringTokenizer;
 /* StringTokenizer 클래스는 객체에서 더 이상 가져올 토큰이 없다면 
 java.util.NoSuchElementException 예외를 발생시킵니다. */
 
-public class B_2752 { // 2752번. 세수정렬
+public class B_2752 { //세수정렬
   public static void main(String[] args) throws IOException {
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 

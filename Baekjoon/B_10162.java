@@ -1,7 +1,7 @@
 package Baekjoon;
 import java.io.*;
 
-public class B_10162 { // 10162번. 전자레인지
+public class B_10162 { //전자레인지
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));

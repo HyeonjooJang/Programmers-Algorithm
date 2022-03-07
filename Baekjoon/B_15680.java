@@ -1,7 +1,7 @@
 package Baekjoon;
 import java.io.*;
 
-public class B_15680 { // 15680번. 스타후르츠
+public class B_15680 { //스타후르츠
     private static BufferedWriter bf = new BufferedWriter(new OutputStreamWriter(System.out));
 
     public static void main(String[] args) throws IOException {

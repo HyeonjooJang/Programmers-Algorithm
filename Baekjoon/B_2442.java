@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 
-public class B_2442 { // 2442번. 별 찍기 -5
+public class B_2442 { //별 찍기 -5
 	public static void main(String[] args) throws IOException {
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 		int n = Integer.parseInt(bf.readLine());

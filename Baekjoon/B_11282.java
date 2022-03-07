@@ -1,7 +1,7 @@
 package Baekjoon;
 import java.io.*;
 
-public class B_11282 { // 11282번. 한글
+public class B_11282 { //한글
 
   public static void main(String[] args) throws IOException {
     BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
