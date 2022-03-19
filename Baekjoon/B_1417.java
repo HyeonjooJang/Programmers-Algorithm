@@ -9,7 +9,6 @@ public class B_1417 { // 국회의원선거.
   public static void main(String[] args) throws IOException {
     BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
     int N = Integer.parseInt(bf.readLine()); // 후보 수
-
     int DASOM = Integer.parseInt(bf.readLine());
     int[] arr = new int[N - 1];
     for (int i = 0; i < arr.length; i++) { // 각 후보의 투표 수
@@ -25,7 +24,7 @@ public class B_1417 { // 국회의원선거.
       boolean check = true; // 다솜이보다 높은 투표수가 있나 확인.
       int last = arr.length - 1; // 가장 투표가 많은 후보의 인덱스
 
-      // 가장 높은 투표를 받은 후보가 다솜이의 투표 수 이상인 경우
+      // 다솜이가 표를 매수할 상황
       if (DASOM <= arr[last]) {
         DASOM++;
         arr[last]--;
