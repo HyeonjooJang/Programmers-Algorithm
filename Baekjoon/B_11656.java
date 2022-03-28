@@ -40,9 +40,11 @@ public class B_11656 { // 접미사 배열
      * String[] arr = new String[S.length()];
      * for (int i = 0; i < S.length(); i++) {
      * //substring() 배열에 문자열을 하나하나 잘라서 리턴한다.
+     * //                 시작인덱스,끝
      * arr[i] = (S.substring(i, S.length()));
      * }
      * //사전순으로 정렬.
+     * //숫자뿐만 아니라 사전순으로도 정렬이 된다.
      * Arrays.sort(arr);
      * 
      * for (int i = 1; i < arr.length; i++) {
